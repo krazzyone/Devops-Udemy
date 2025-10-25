@@ -5,6 +5,22 @@ Install chocolatey from the instructions given in the link below.
 https://chocolatey.org/docs/installation
 
 ```
+choco list                ## This command will be help you to list out install software list. 
+```
+```
+java -version           ## To check the Java version if it is installed.
+
+```
+
+To uninstall any package 
+
+```
+choco uninstall virtualbox -y
+
+```
+
+
+```
 choco install virtualbox --version=7.1.4 -y
 ```
 ```
@@ -98,4 +114,5 @@ brew install --cask sublime-text
 ```
 brew install awscli
 ```
+
 
